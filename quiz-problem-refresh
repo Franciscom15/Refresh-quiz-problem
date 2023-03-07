@@ -1,0 +1,36 @@
+let students = 
+  {
+    name: 'John',
+    score1: 47,
+    score2: 46
+  }
+  {
+    name: 'Bob',
+    score1= 23,
+    score2=24
+    
+  }
+  {
+    name: 'Nick',
+    score1= 40,
+    score2= 35
+  }
+  {
+    name: 'Alex',
+    score1= 44,
+    score2= 45
+  }
+
+console.log(students[0].name);
+console.log(students[1].score2);
+
+
+//Ex 2//
+degrees = ["A", "B", "C", "D", "E"]
+passing_limits = [91, 81, 71, 61, 51]
+
+//Ex 3//
+const score1 = [85, 91, 77, 64, 89];
+const score2 = [72, 88, 93, 79, 81];
+const totalScores = evaluateTotalScores(score1, score2);
+console.log(totalScores);
